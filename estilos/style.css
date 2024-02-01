@@ -86,10 +86,45 @@ ul#menu>li>a {
     text-transform: uppercase;
     font-weight: 600;
     margin-left: 15px;
+    border-right: 2px solid white;
+    padding-right: 30px;
 }
+
 
 ul#menu>li>a:hover{
     color: var(--cor4);
+}
+
+
+section.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1120px;
+    height: 60vh;
+    padding: 0px 32px;
+    align-items: center;
+    gap: 96px;
+    margin: auto;
+
+}
+
+.hero-conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.hero-conteudo >h1{
+    font-size: 52px;
+}
+
+div.hero-container-imagem{
+    height: 100%;
+}
+
+div.hero-container-imagem>img{
+    height: 100%;
 }
 
 
