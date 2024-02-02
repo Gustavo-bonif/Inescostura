@@ -48,9 +48,8 @@ div.hero-container-imagem>img{
 
 .container-lista h2{
     font-family: Teko, sans-serif;
-    width: 350px;
+    text-align: center;
     text-transform: uppercase;
-    margin: auto;
     font-size: 45px;
     color: var(--cor4);
 }

@@ -115,3 +115,16 @@ footer hr{
     margin: auto;
 
 }
+/* 
+.container-whatsapp{
+    height: 75px;
+    width: 75px;
+    position: fixed;
+    z-index: 999;
+    bottom: 100px;
+    right: 100px;
+}
+
+.container-whatsapp>a>img{
+    width: 100%;
+} */

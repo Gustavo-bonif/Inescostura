@@ -6,9 +6,7 @@
 }
 
 .container-titulo> h1 {
-    display: block;
-    max-width: 300px;
-    margin: auto;
+    text-align: center;
     font-size: 57px;
     text-transform: uppercase;
     color: var(--cor4);
@@ -47,5 +45,13 @@ section.container-texto p {
     font-family: Teko, sans-serif;
     color: var(--cor4);
     
+}
+
+a.link-whatsapp{
+    color: #2BB741;
+}
+
+a.link-whatsapp:hover{
+    text-decoration: underline;
 }
 
