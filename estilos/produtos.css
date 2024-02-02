@@ -5,7 +5,7 @@ body{
 }
 
 .produto{
-    margin-top: 150px;
+    margin-top: 50px;
     margin-bottom: 100px;
     display: flex;
     justify-content: center;
@@ -17,8 +17,8 @@ body{
     position: relative;
     height: 360px;
     width: 360px;
-    background-color: gray;
     overflow: hidden;
+    border: 10px solid black;
 }
 
 
