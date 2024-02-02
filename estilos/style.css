@@ -69,6 +69,7 @@ section.container-lista >ul>li{
     font-size: 25px;
     font-weight: bold;
     cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.32);
 }
 
 section.container-lista >ul>li:hover{

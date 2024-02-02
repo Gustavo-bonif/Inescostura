@@ -6,6 +6,9 @@ h1{
     margin: 100px;
     display: block;
     text-align: center;
+    font-size: 57px;
+    color: var(--cor4);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .container-redeSocial{
@@ -19,10 +22,16 @@ h1{
     width: 75px;
 }
 
+.container-redeSocial p{
+    font-size: 32px;
+}
+
 .redes{
+    display: block;
+    width: 550px;
     margin: 100px auto;
     display:flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 50px;
     /* max-width: 1000px; */
 }

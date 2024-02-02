@@ -1,0 +1,43 @@
+@import url(padrao.css);
+
+body{
+    background-color: var(--cor5);
+}
+
+.produto{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+}
+
+.container-fundo{
+    position: relative;
+    height: 360px;
+    width: 360px;
+    background-color: gray;
+}
+
+.container-imagem {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 350px;
+    height: 350px;
+    transform: translate(-50%,-50%);
+}
+
+.container-imagem>img{
+    width: 100%;
+}
+
+.informacoes-produto{
+
+}
+
+.informacoes-produto p{
+    max-width: 400px;
+    color: black;
+}
