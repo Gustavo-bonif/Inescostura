@@ -5,13 +5,22 @@
     margin-bottom: 10px;
 }
 
-.container-titulo>h1 {
+.container-titulo> h1 {
     display: block;
     max-width: 300px;
     margin: auto;
     font-size: 57px;
     text-transform: uppercase;
     color: var(--cor4);
+}
+
+.container-titulo hr{
+    max-width: 450px;
+    background-color:var(--cor4);
+    height: 2px;
+    border: none;
+    border-radius: 20px;
+    margin: auto;
 }
 
 .fundo-dourado {
@@ -34,7 +43,9 @@ section.container-texto {
 }
 
 section.container-texto p {
-    font-size: 32px;
+    font-size: 45px;
+    font-family: Teko, sans-serif;
     color: var(--cor4);
     
 }
+

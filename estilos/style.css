@@ -46,11 +46,21 @@ div.hero-container-imagem>img{
     height: 100%;
 }
 
+.container-lista h2{
+    font-family: Teko, sans-serif;
+    width: 350px;
+    text-transform: uppercase;
+    margin: auto;
+    font-size: 45px;
+    color: var(--cor4);
+}
+
 section.container-lista>ul{
     display: flex;
     gap:10px;
     justify-content: center;
-    margin:50px 0;
+    margin-bottom: 100px;
+    margin-top: 50px;
 }
 
 section.container-lista >ul>li{
@@ -63,7 +73,7 @@ section.container-lista >ul>li{
 }
 
 section.container-lista >ul>li:hover{
-    transform: translateY(-5px);
+    background-image: linear-gradient(to left, #78490641,#c6851640,#d4a62839,#905d0a3c);
     transition-duration: 1s;
 }
 
