@@ -2,7 +2,8 @@
 
 
 .container-hero{
-    background-color: var(--cor2);
+    /* background-color: var(--cor2); */
+    background-image: linear-gradient(to top,white, gray);
 }
 
 section.hero {
@@ -35,7 +36,8 @@ section.hero {
 
 .hero-conteudo >h2{
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 500;
+    
 }
 
 div.hero-container-imagem{
