@@ -27,7 +27,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 400px;
+    height: 400px; 
     background-color: var(--cor4);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.271);
     /* background-image: linear-gradient(to top, #784806, #C68416, #D4A728, #905D0A); */
