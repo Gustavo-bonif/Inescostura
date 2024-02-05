@@ -35,6 +35,7 @@
 
 div.conatiner-produto img{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.271);
+    border-radius: 20px;
 }
 
 section.container-texto {
@@ -61,4 +62,13 @@ a.link-whatsapp{
 a.link-whatsapp:hover{
     text-decoration: underline;
 }
+
+
+@media screen and (max-width: 768px){
+    .fundo-dourado {
+        height: 1300px;
+        flex-wrap: wrap;
+    }
+}
+
 

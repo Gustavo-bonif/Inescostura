@@ -12,7 +12,7 @@ section.hero {
     flex-direction: row;
     justify-content: space-between;
     max-width: 1120px;
-    height: 60vh;
+    height: 70vh;
     padding: 0px 32px;
     align-items: center;
     gap: 96px;
@@ -42,7 +42,8 @@ section.hero {
 }
 
 div.hero-container-imagem{
-    height: 100%;
+    margin-top: 10px;
+    height: 98%;
 }
 
 div.hero-container-imagem>img{
@@ -200,11 +201,6 @@ section.container-lista >ul>li{
     padding: 20px;
 }
 
-section.hero {
-    display: flex;
-    flex-direction: column;
-}
-
 .hero-conteudo{
     margin-top: 50px;
     gap: 10px;
@@ -214,18 +210,12 @@ section.hero {
     font-size: 32px;
 }
 
-
 .hero-conteudo >h2{
     font-size: 20px;
 }
 
 div.hero-container-imagem{
     height: 50%;
-}
-
-div.hero-container-imagem>img{
-    height: 100%;
-    display: none;
 }
 
 .slidebox img{
