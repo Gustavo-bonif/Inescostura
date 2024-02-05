@@ -38,6 +38,10 @@ div.conatiner-produto img{
     border-radius: 20px;
 }
 
+div.conatiner-produto img:hover{
+    transform: translateY(-5px);
+}
+
 section.container-texto {
     display: flex;
     flex-direction: column;
