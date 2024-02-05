@@ -11,13 +11,6 @@
 }
 
 
-html{
-
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-
-}
 :root {
     /* --cor1: #1f1517;
     --cor2: #191113;
@@ -37,6 +30,9 @@ html{
 html {
     font-family: Kanit, sans-serif;
     font-weight: 500;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 
@@ -202,6 +198,25 @@ footer hr{
 
    
     
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    ul#menu {
+        gap: 10px;
+    }
+
+    ul#menu>li>a{
+        padding-right: 20px;
+    }
+
+    #container-logo-menu{
+        left: 20px;
+    }
+
+    .container-menu{
+        left: 46px;
+    }
+
 }
 /* 
 .container-whatsapp{

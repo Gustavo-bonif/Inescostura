@@ -73,6 +73,11 @@ a.link-whatsapp:hover{
         height: 1300px;
         flex-wrap: wrap;
     }
+
+    section.container-texto p {
+        font-size: 32px;
+    }
+
 }
 
 
