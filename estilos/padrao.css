@@ -151,13 +151,12 @@ footer hr{
         font-size: 18px;
     }
 
-    /* #logo-interno{
+    #logo-interno{
         display: block;
-        margin: auto;
         position: relative;
         top: 5px;
         left: 100px;
-    } */
+    }
 
 
     ul#menu {
