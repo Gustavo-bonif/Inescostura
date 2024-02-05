@@ -10,6 +10,14 @@
     box-sizing: border-box;
 }
 
+
+html{
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
 :root {
     /* --cor1: #1f1517;
     --cor2: #191113;
@@ -23,7 +31,7 @@
     --cor3: white;
     --cor4: #C9AC55;
     --cor5: #1f1517;
-    --cor6:  #f9e2e1;
+    --cor6: #f9e2e1;
 }
 
 html {
@@ -68,6 +76,10 @@ header{
     right: 100px;
 }
 
+#logo-interno{
+    display: none;
+}
+
 .container-menu{
     position: relative;
     left: 100px;
@@ -81,6 +93,7 @@ header>nav {
     align-items: center;
     max-width: 1120px;
     padding: 24px 160px;
+    margin: auto;
 }
 
 .container-logo h2{
@@ -122,7 +135,6 @@ footer{
     gap: 10px;
     padding: 20px 0px 5px 0px;
     bottom: 0;
-    width: 100vw;
 }
 
 footer hr{
@@ -134,6 +146,18 @@ footer hr{
 }
 
 @media screen and (max-width: 768px){
+
+    .container-logo h2{
+        font-size: 18px;
+    }
+
+    #logo-interno{
+        display: block;
+        margin: auto;
+        position: relative;
+        top: 5px;
+        left: 100px;
+    }
 
 
     ul#menu {
