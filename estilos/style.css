@@ -63,14 +63,14 @@ section.slider{
     position: relative;
     margin-top: 100px;
     width: 98.9vw;
-    height: 350px;
+    height: 400px;
     overflow: hidden;
 
 }
 
 div.slider-content{
     width: 400%;
-    height: 350px;
+    height: 400px;
     display: flex;
 }
 
@@ -192,11 +192,11 @@ section.container-lista >ul>li:hover{
 @media screen and (min-width: 768px) and (max-width: 992px){
 
     section.slider{
-        height: 350px;
+        height: 400px;
     }
     
     div.slider-content{
-        height: 350px;
+        height: 400px;
     }
 
     section.container-lista >ul>li{
