@@ -201,21 +201,26 @@ section.container-lista >ul>li{
     padding: 20px;
 }
 
+section.hero{
+    height: 40vh;
+    gap: 50px;
+}
+
 .hero-conteudo{
     margin-top: 50px;
     gap: 10px;
 }
 
 .hero-conteudo >h1{
-    font-size: 32px;
+    font-size: 25px;
 }
 
 .hero-conteudo >h2{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 div.hero-container-imagem{
-    height: 50%;
+    height: 100%;
 }
 
 .slidebox img{
