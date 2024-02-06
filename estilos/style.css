@@ -63,14 +63,14 @@ section.slider{
     position: relative;
     margin-top: 100px;
     width: 98.9vw;
-    height: 400px;
+    height: 350px;
     overflow: hidden;
 
 }
 
 div.slider-content{
     width: 400%;
-    height: 400px;
+    height: 350px;
     display: flex;
 }
 
@@ -194,12 +194,20 @@ section.container-lista >ul>li:hover{
 @media screen and (min-width: 768px) and (max-width: 992px){
 
     section.slider{
-        height: 300px;
+        height: 350px;
     }
     
     div.slider-content{
-        height: 300px;
+        height: 350px;
     }
+
+
+    section.container-lista >ul>li{
+        padding: 30px;
+        font-size: 18px;
+    }
+
+    
 
 }
 
@@ -207,11 +215,11 @@ section.container-lista >ul>li:hover{
 
 
     section.slider{
-        height: 200px;
+        display: none;
     }
     
     div.slider-content{
-        height: 200px;
+        display: none;
     }
 
 section.container-lista>ul{
@@ -226,11 +234,13 @@ section.container-lista>ul:last-child{
 
 section.container-lista >ul>li{
     padding: 20px;
+    text-align: center;
 }
 
 section.hero{
     height: 40vh;
     gap: 50px;
+    margin-bottom: 100px;
 }
 
 .hero-conteudo{
@@ -239,11 +249,11 @@ section.hero{
 }
 
 .hero-conteudo >h1{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .hero-conteudo >h2{
-    font-size: 15px;
+    font-size: 12px;
 }
 
 div.hero-container-imagem{
