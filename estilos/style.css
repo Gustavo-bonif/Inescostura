@@ -166,8 +166,6 @@ div.slider-content input{
     background-color:var(--cor6);
 }
 
-
-
 section.container-lista>ul{
     display: flex;
     gap:10px;
@@ -201,10 +199,23 @@ section.container-lista >ul>li:hover{
         height: 350px;
     }
 
-
     section.container-lista >ul>li{
         padding: 30px;
         font-size: 18px;
+    }
+
+    .hero-conteudo >h1{
+        font-size: 32px;
+    }
+    
+    .hero-conteudo >h2{
+        font-size: 18px;
+    }
+
+    section.hero{
+        
+        gap: 65px;
+        
     }
 
     

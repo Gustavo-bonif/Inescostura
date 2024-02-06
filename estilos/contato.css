@@ -12,6 +12,8 @@ h1{
 .container-redeSocial{
     display: flex;
     align-items: center;
+    text-align: center;
+    justify-content: center;
     gap: 10px;
 }
 
@@ -36,8 +38,17 @@ h1{
 }
 
 @media screen and (max-width: 768px){
+
+    .container-redeSocial img{
+        height: 50px;
+        width: 50px;
+    }
+
     .container-redeSocial p{
         font-size: 20px;
-        
+    }
+
+    h1{
+        font-size: 40px;
     }
 }
