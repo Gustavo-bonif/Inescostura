@@ -60,6 +60,7 @@ div.hero-container-imagem>img{
 
 section.slider{
 
+    position: relative;
     margin-top: 100px;
     width: 98.9vw;
     height: 400px;
@@ -84,16 +85,30 @@ div.slider-content input{
 
 .slidebox img{
     width: 100%;
+    height: 100%;
 }
 
 .nav-manual{
    
     position: absolute;
     width: 100%;
-    margin-top: -91px;
+    bottom: 30px;
     display: flex;
     justify-content: center;
     gap: 5px;
+    color: black;
+}
+
+.nav-auto{
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+    color: gray;
+
 }
 
 .manual-btn{
@@ -133,15 +148,7 @@ div.slider-content input{
     cursor: pointer;
 }
 
-.nav-auto{
-    position: absolute;
-    width: 100%;
-    margin-top: 310px;
-    display: flex;
-    justify-content: center;
-    gap: 5px;
 
-}
 
 #radio1:checked ~ .nav-auto .auto-btn1{
     background-color:var(--cor6);
@@ -184,8 +191,28 @@ section.container-lista >ul>li:hover{
     transition-duration: 1s;
 }
 
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    section.slider{
+        height: 300px;
+    }
+    
+    div.slider-content{
+        height: 300px;
+    }
+
+}
 
 @media screen and (max-width: 768px){
+
+
+    section.slider{
+        height: 200px;
+    }
+    
+    div.slider-content{
+        height: 200px;
+    }
 
 section.container-lista>ul{
     flex-direction: column;
