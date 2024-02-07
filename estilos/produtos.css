@@ -1,10 +1,10 @@
 @import url(padrao.css);
 
-body{
+body {
     background-color: white;
 }
 
-.produto{
+.produto {
     margin-top: 50px;
     margin-bottom: 100px;
     display: flex;
@@ -13,7 +13,7 @@ body{
     gap: 100px;
 }
 
-.container-fundo{
+.container-fundo {
     position: relative;
     height: 360px;
     width: 360px;
@@ -22,37 +22,26 @@ body{
 }
 
 
-.container-slide{
+.container-slide {
     display: flex;
-    height:  360px;
+    height: 360px;
     width: 200%;
 }
 
-.container-slide input{
+.container-slide input {
     display: none;
 }
 
-
-/* .container-imagem {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 350px;
-    height: 350px;
-    transform: translate(-50%,-50%);
-} */
-
-.container-imagem{
+.container-imagem {
     width: 50%;
     position: relative;
 }
 
-.container-imagem img{
+.container-imagem img {
     width: 100%;
-    
 }
 
-.nav-manual{
+.nav-manual {
     position: absolute;
     width: 100%;
     margin-top: -91px;
@@ -61,30 +50,64 @@ body{
     gap: 5px;
 }
 
-.manual-btn{
+.manual-btn {
     border: 2px solid var(--cor2);
     padding: 6px;
     border-radius: 50%;
     cursor: pointer;
 }
 
-.manual-btn:hover{
+.manual-btn:hover {
     background-color: var(--cor6);
 }
 
-#radio1:checked ~ .primeiro{
+#radio1:checked~.primeiro {
     margin-left: 0;
     transition-duration: 1.5s;
 }
 
-#radio2:checked ~ .primeiro{
+#radio2:checked~.primeiro {
     margin-left: -50%;
     transition-duration: 1.5s;
 }
 
 
 
-.informacoes-produto p{
+.informacoes-produto p {
     max-width: 400px;
     color: black;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .container-fundo {
+
+        height: 213px;
+        width: 213px;
+
+    }
+
+    .container-slide {
+        height: 213px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .container-fundo {
+
+        height: 213px;
+        width: 213px;
+
+    }
+
+    .container-slide {
+        height: 213px;
+    }
+
+    .produto{
+        flex-direction: column;
+        align-items: center;
+    }
+
 }

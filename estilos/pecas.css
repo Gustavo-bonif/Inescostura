@@ -30,6 +30,7 @@
     height: 400px; 
     background-color: var(--cor4);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.271);
+    overflow: hidden;
     /* background-image: linear-gradient(to top, #784806, #C68416, #D4A728, #905D0A); */
 }
 
@@ -66,6 +67,13 @@ a.link-whatsapp{
 
 a.link-whatsapp:hover{
     text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .fundo-dourado {
+        flex-wrap: wrap;
+        height: 900px;
+    }
 }
 
 

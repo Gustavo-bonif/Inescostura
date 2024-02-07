@@ -192,11 +192,11 @@ section.container-lista >ul>li:hover{
 @media screen and (min-width: 768px) and (max-width: 992px){
 
     section.slider{
-        height: 400px;
+        height: 213px;
     }
     
     div.slider-content{
-        height: 400px;
+        height: 213px;
     }
 
     section.container-lista >ul>li{
@@ -225,12 +225,13 @@ section.container-lista >ul>li:hover{
 @media screen and (max-width: 768px){
 
 
+
     section.slider{
-        display: none;
+        height: 165px;
     }
     
     div.slider-content{
-        display: none;
+        height: 165px;
     }
 
 section.container-lista>ul{
@@ -271,17 +272,17 @@ div.hero-container-imagem{
     height: 96%;
 }
 
-.slidebox img{
+/* .slidebox img{
     width: 245%;
-}
-
+} */
+/* 
 .nav-auto div{
     display: none;
 }
 
 .manual-btn{
     display: none;
-}
+} */
 
 
 }
