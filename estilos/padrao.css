@@ -33,12 +33,14 @@ html {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    height: 100%;
 }
 
 
 body {
     background-color: var(--cor3);
     color: var(--cor5);
+    height: 100%; 
 }
 
 a {
