@@ -1,1 +1,10 @@
 @import url(padrao.css);
+
+h3{
+font-size: 25px;
+}
+
+.container-texto{
+    margin-left: 100px;
+    margin-top: 40px;
+}
