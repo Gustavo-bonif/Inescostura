@@ -93,6 +93,7 @@ section.container-texto p {
     font-size: 45px;
     font-family: Teko, sans-serif;
     color: var(--cor4);
+    text-align: center;
     
 }
 
@@ -130,6 +131,10 @@ a.link-whatsapp:hover{
     .produto {
         flex-direction: column;
         align-items: center;
+    }
+
+    section.container-texto p{
+        font-size: 32px;
     }
 
 }
