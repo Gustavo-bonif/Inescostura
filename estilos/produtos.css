@@ -71,11 +71,16 @@ body {
     transition-duration: 1.5s;
 }
 
-
-
 .informacoes-produto p {
     max-width: 400px;
     color: black;
+}
+
+.informacoes-produto ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
 }
 
 
